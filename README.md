@@ -45,3 +45,8 @@ go test -run TestHello
 
 ## Gallery
 
+- **function picker**
+![picker](./demo/picker.png)
+
+- **test execution output**
+![output](./demo/output.png)
