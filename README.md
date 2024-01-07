@@ -2,6 +2,14 @@
 
 - A simple plugin to run go tests from within Neovim
 
+## Gallery
+
+- **function picker**
+![picker](./demo/picker.png)
+
+- **test execution output**
+![output](./demo/output.png)
+
 ## Installation 
 
 - using your package manager add the following
@@ -65,11 +73,3 @@ config = function()
     vim.keymap.set("n", "<Space>tm", goTest.goModTester)
 end
 ```
-
-## Gallery
-
-- **function picker**
-![picker](./demo/picker.png)
-
-- **test execution output**
-![output](./demo/output.png)
